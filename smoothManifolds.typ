@@ -1,0 +1,29 @@
+
+///////////////////////////////////////////////
+// Imports
+
+#import "@local/lpit-publisher-papers:0.2.0" : *
+
+
+
+
+///////////////////////////////////////////////
+// Front matter
+
+#show: doc=> setupDoc(yaml("lpit.yaml"), doc)
+
+#abstract([ A summary of the Smooth Manifolds and General Relativtiy used in the
+diSimplex projects
+ ])
+
+
+
+///////////////////////////////////////////////
+// Body
+
+
+
+/////////////////////////////////////////////////////////////////
+// End matter
+
+#bibliography("doc.bib")
